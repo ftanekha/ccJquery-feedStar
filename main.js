@@ -20,7 +20,7 @@ $(document).ready(
             $('.characters').html(remaining)
 
             //make the '.wordcount' message turn red if the user runs out of characters
-            remaining <=0 && $('.wordcount').addClass('red') || $('.wordcount').removeClass('red')
+            remaining <= 0 && $('.wordcount').addClass('red') || $('.wordcount').removeClass('red')
         })
         .on('focus', () => {
             //This will cause the <textarea> to expect typed text as soon as the page loads
